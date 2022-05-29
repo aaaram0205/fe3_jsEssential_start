@@ -3,6 +3,18 @@ import test from "./getRandom";
 // if else else if 
 const abcd =test();
 
+switch (abcd) {
+    case 0:
+        console.log('random is 0')
+        break
+    case 2:
+        console.log('random is 2')
+        break
+    default: 
+        console.log('rest')
+}
+
+/* 
 if ( abcd === 1 ) {
     console.log('random is 1') 
 } else if ( abcd === 2 ){
@@ -10,7 +22,7 @@ if ( abcd === 1 ) {
 } else {
     console.log('rest...') 
 }
-
+*/
 
 
 
